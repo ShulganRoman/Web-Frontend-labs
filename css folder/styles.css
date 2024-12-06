@@ -1,0 +1,79 @@
+/*nav {*/
+/*    background-color: #f4f4f4;*/
+/*    padding: 10px;*/
+/*}*/
+/*nav ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*}*/
+/*nav ul li {*/
+/*    display: inline;*/
+/*    margin-right: 15px;*/
+/*}*/
+/*section {*/
+/*    margin: 20px 0;*/
+/*}*/
+/*article, aside {*/
+/*    display: inline-block;*/
+/*    vertical-align: top;*/
+/*    width: 45%;*/
+/*    margin: 10px 2%;*/
+/*}*/
+/*pre {*/
+/*    background-color: #f0f0f0;*/
+/*    padding: 10px;*/
+/*    border-left: 5px solid #ccc;*/
+/*}*/
+/*blockquote {*/
+/*    font-style: italic;*/
+/*    margin: 20px 0;*/
+/*}*/
+/*img {*/
+
+/*    background-color: #BAD7DF;*/
+/*    display: flex;*/
+/*    width: 20%;*/
+/*    padding: 10px;*/
+/*}*/
+
+
+body {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-family: "Apple Braille", sans-serif;
+    margin: 20px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: flex-end;
+}
+.left-side {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.centering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.module {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.round {
+    border-radius: 50px;
+}
+
+.horizontal-gap {
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
